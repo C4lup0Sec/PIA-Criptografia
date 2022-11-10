@@ -1,0 +1,9 @@
+Para poder ingresar las credenciales son:
+(Este usuario ya está encriptado)
+ user :Fernando 
+Pass: 0305
+
+O
+(Este aún no)
+User : Persona 1
+Pass:123

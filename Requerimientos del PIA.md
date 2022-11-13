@@ -1,0 +1,4 @@
+chat para soporte dentro de la aplicación, usando las 
+curvas elipticas como cifrado para la comunicación.
+Y tambien usando la sección de guardar csv crear una sección donde el admin genere el csv con una contraseña y para que los trabajadores lo puedan 
+descargar deban introducir una contraseña esto cifrado asimétricamente

@@ -1,6 +1,6 @@
 Para poder ingresar las credenciales son:
 (Este usuario ya está encriptado)
- user :Fernando 
+ user :fernando 
 Pass: 0305
 
 O

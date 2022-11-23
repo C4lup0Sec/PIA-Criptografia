@@ -1,4 +1,4 @@
-#!C:\Users\wolf9\OneDrive\Escritorio\Crptografia\PIA DB UANL\piacrip\Scripts\python.exe
+#!C:\Users\wolf9\OneDrive\Escritorio\Descargas\Crptografia\PIA DB UANL\piacrip\Scripts\python.exe
 
 # $Id: rst2html4.py 8927 2022-01-03 23:50:05Z milde $
 # Author: David Goodger <goodger@python.org>

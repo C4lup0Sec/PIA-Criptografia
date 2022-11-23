@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\wolf9\OneDrive\Escritorio\Crptografia\PIA DB UANL\piacrip"
+VIRTUAL_ENV="C:\Users\wolf9\OneDrive\Escritorio\Descargas\Crptografia\PIA DB UANL\piacrip"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

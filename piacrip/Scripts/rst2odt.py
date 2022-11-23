@@ -1,4 +1,4 @@
-#!C:\Users\wolf9\OneDrive\Escritorio\Crptografia\PIA DB UANL\piacrip\Scripts\python.exe
+#!C:\Users\wolf9\OneDrive\Escritorio\Descargas\Crptografia\PIA DB UANL\piacrip\Scripts\python.exe
 
 # $Id: rst2odt.py 8994 2022-01-29 16:28:17Z milde $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

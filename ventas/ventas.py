@@ -39,22 +39,21 @@ class SelectableBoxLayout(RecycleDataViewBehavior, BoxLayout):
     selected = BooleanProperty(False)
     selectable = BooleanProperty(True)
 
-    def refresh_view_attrs(self, rv, index, data):
-    	self.index = index
-    	self.ids['_hashtag'].text = str(1+index)
-    	self.ids['_articulo'].text = data['nombre'].capitalize()
-    	self.ids['_cantidad'].text = str(data['cantidad_carrito'])
-    	self.ids['_precio_por_articulo'].text = str("{:.2f}".format(data['precio']))
-    	self.ids['_precio'].text = str("{:.2f}".format(data['precio_total']))
-    	return super(SelectableBoxLayout, self).refresh_view_attrs(
-            rv, index, data)
+	def refresh_view_attrs(self, rv, index, data):
+		self.index = index
+		self.ids['_hashtag'].text = str(1+index)
+		self.ids['_articulo'].text = data['nombre'].capitalize()
+		self.ids['_cantidad'].text = str(data['cantidad_carrito'])
+		self.ids['_precio_por_articulo'].text = str("{:.2f}".format(data['precio']))
+		self.ids['_precio'].text = str("{:.2f}".format(data['precio_total']))
+		return super(SelectableBoxLayout, self).refresh_view_attrs(rv, index, data)
 
-    def on_touch_down(self, touch):
-        ''' Add selection on touch down '''
-        if super(SelectableBoxLayout, self).on_touch_down(touch):
-            return True
-        if self.collide_point(*touch.pos) and self.selectable:
-            return self.parent.select_with_touch(self.index, touch)
+	def on_touch_down(self, touch):
+		''' Add selection on touch down '''
+		if super(SelectableBoxLayout, self).on_touch_down(touch):
+			return True
+		if self.collide_point(*touch.pos) and self.selectable:
+			return self.parent.select_with_touch(self.index, touch)
 
     def apply_selection(self, rv, index, is_selected):
         ''' Respond to the selection of items in the view. '''

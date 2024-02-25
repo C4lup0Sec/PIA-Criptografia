@@ -1,0 +1,5 @@
+.venv/
+admin/__pycache__/
+ventas/__pycache__/
+piacrip/__pycache__/
+signin/__pycache__/
